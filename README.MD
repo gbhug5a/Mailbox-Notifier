@@ -1,5 +1,13 @@
 # MAILBOX NOTIFIER
 
+------------------------------------------
+
+##  Update - 2025
+
+Since IFTTT has become subscription, the software has been rewritten to use the Pushover app.  And the circuit has been modified so the power does not stay on if the door is left open.  See the Update-2025 folder.
+
+------------------------------------------
+
 This is a battery-powered device that notifies you when the mailbox door has been opened, and again a minute later if the mailbox door has been left open.  A Lolin/Wemos D1 Mini or D1 Mini Pro connects to your home router and sends a message to the "If This Then That" server to trigger a Webhooks event, which in turn sends an SMS, or an alert to the IFTTT app on your phone, or any other "That" which you might select.
 
 ## Hardware
