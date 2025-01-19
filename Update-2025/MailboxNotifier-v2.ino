@@ -144,7 +144,7 @@ void makePushoverRequest() {
   while(client.available()){
                                                  // comment one out:
     client.read();                               // skip rest of response, or
-//    Serial.print(client.read());                 // print rest of response
+//    Serial.print((char)client.read());           // print rest of response
   }
   Serial.println("\nClosing connection");
   delay(1000);
